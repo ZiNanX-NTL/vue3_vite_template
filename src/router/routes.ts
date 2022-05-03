@@ -3,7 +3,7 @@ const routes: RouteRecordRaw[] = [
   {
     path: '/',
     name: 'Login',
-    component: () => import('@/pages/login/Login.vue'),
+    component: () => import('@/views/login/Login.vue'),
   },
 ]
 

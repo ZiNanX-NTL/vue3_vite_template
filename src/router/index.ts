@@ -1,5 +1,5 @@
 import { App } from 'vue'
-import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import autoRoutes from './autoRegister'
 import routes from './routes'
 
