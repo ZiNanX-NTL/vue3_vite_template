@@ -11,9 +11,9 @@ const props = defineProps({
 })
 const emit = defineEmits(['update:modelValue'])
 
-const input = (value: any) => {
+const input = (value: Event) => {
   // console.log(value.target.value)
-  emit('update:modelValue', value.target.value)
+  emit('update:modelValue', (value.target as HTMLInputElement).value)
 }
 </script>
 

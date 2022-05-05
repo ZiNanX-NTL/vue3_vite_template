@@ -147,6 +147,12 @@ module.exports = {
     'no-async-promise-executor': 'warn',
 
     'vue/multi-word-component-names': 'off',
+    '@typescript-eslint/no-empty-interface': [
+      'error',
+      {
+        allowSingleExtends: true,
+      },
+    ],
   },
   globals: {
     defineProps: 'readonly',

@@ -11,15 +11,19 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@vee-validate/i18n": "^4.5.11",
+    "@vee-validate/rules": "^4.5.11",
     "axios": "^0.24.0",
     "lodash": "^4.17.21",
     "mockjs": "^1.1.0",
     "naive-ui": "^2.21.2",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.0-rc.10",
+    "vee-validate": "^4.5.8",
     "vfonts": "^0.1.0",
     "vue": "^3.2.2",
-    "vue-router": "4"
+    "vue-router": "4",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@babel/types": "^7.16.0",

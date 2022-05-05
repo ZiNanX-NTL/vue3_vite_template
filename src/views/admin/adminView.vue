@@ -20,4 +20,10 @@ const updateName = () => {
 }
 </script>
 
+<script lang="ts">
+export default {
+  route: { name: 'home' },
+}
+</script>
+
 <style lang="scss" scoped></style>

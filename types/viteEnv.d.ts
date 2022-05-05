@@ -1,10 +1,10 @@
-interface viteEnv {
+interface ViteEnv {
   VITE_URL: string
   VITE_APP: boolean
   VITE_NUM: number
 }
 
-type ImportMetaEnv = viteEnv
+interface ImportMetaEnv extends ViteEnv {}
 
 interface ImportMeta {
   readonly env: ImportMetaEnv
